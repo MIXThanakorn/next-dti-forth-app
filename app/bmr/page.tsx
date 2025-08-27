@@ -80,7 +80,9 @@ export default function App() {
               id="weight"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors"
+              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
               placeholder="กรอกน้ำหนัก"
             />
           </div>
@@ -98,7 +100,9 @@ export default function App() {
               id="height"
               value={height}
               onChange={(e) => setHeight(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors"
+              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
               placeholder="กรอกส่วนสูง"
             />
           </div>
@@ -116,7 +120,9 @@ export default function App() {
               id="age"
               value={age}
               onChange={(e) => setAge(e.target.value)}
-              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors"
+              className="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-lime-500 transition-colors [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
               placeholder="กรอกอายุ"
             />
           </div>

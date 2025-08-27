@@ -96,7 +96,9 @@ export default function CarInstallmentPage() {
             type="number"
             value={carPrice}
             onChange={(e) => setCarPrice(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200 [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
             placeholder="กรอกราคารถ"
           />
         </div>
@@ -142,7 +144,9 @@ export default function CarInstallmentPage() {
             type="number"
             value={downPaymentAmount}
             readOnly
-            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200"
+            className="w-full px-4 py-2 border border-gray-300 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200 [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
           />
         </div>
 
@@ -159,7 +163,9 @@ export default function CarInstallmentPage() {
             type="number"
             value={interestRate}
             onChange={(e) => setInterestRate(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200"
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-lime-400 focus:border-transparent transition duration-200 [&::-webkit-outer-spin-button]:appearance-none 
+  [&::-webkit-inner-spin-button]:appearance-none 
+  [appearance:textfield]"
             placeholder="กรอกอัตราดอกเบี้ย"
           />
         </div>
