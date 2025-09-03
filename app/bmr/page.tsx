@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // Main BMR Calculator component
 export default function App() {
@@ -181,6 +182,9 @@ export default function App() {
             อัตราการเผาผลาญ:{" "}
             <span className="text-lime-700 font-bold text-xl">{bmrResult}</span>
           </p>
+          <Link href="/" className="block mt-4">
+            Home
+          </Link>
         </div>
       </div>
     </div>

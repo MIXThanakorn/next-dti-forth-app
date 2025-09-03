@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CarInstallmentPage() {
   const [carPrice, setCarPrice] = useState("");
@@ -212,6 +213,7 @@ export default function CarInstallmentPage() {
         <div className="text-center text-xl font-semibold text-gray-800">
           <span className="text-lime-700">ต้องผ่อนต่องวด:</span>{" "}
           <span className="text-lime-600 font-bold">{monthlyPayment} บาท</span>
+          <Link href="/" className="block mt-4">Home</Link>
         </div>
       </div>
     </div>

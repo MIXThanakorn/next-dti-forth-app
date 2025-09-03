@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function BMIPage() {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
@@ -105,6 +106,9 @@ export default function BMIPage() {
         <div className="text-center text-xl font-semibold text-gray-800">
           <span className="text-lime-700">ค่าดัชนีมวลกาย:</span>{" "}
           <span className="text-lime-600 font-bold">{bmiResult}</span>
+          <Link href="/" className="block mt-4">
+            Home
+          </Link>
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-lime-50 font-sans flex flex-col items-center p-8">
       <Image
-        src="/Logo.png"
+        src="/logo.png"
         alt="Calculator Icon"
         width={32}
         height={32}
